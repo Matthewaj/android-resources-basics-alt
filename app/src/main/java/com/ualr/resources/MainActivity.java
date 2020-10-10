@@ -5,6 +5,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 
@@ -20,4 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void onLessonLearntClicked(View view) {
+        Toast.makeText(getApplicationContext(), R.string.congratsText, Toast.LENGTH_SHORT).show();
+    }
 }

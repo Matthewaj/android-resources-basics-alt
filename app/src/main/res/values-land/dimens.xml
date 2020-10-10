@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textviewMarginBottom">24dp</dimen>
+    <dimen name="imageViewWidth">0dp</dimen>
+    <dimen name="imageViewHeight">262dp</dimen>
+    <dimen name="imageViewMargin">16dp</dimen>
+    <dimen name="layoutPadding">24dp</dimen>
+    <dimen name="descMarginStart">24dp</dimen>
+    <dimen name="descWidth">0dp</dimen>
+    <dimen name="buttonMarginTop">8dp</dimen>
+</resources>
